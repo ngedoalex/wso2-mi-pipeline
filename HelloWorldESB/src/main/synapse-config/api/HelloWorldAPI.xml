@@ -1,0 +1,12 @@
+<api xmlns="http://ws.apache.org/ns/synapse" name="HelloWorldAPI" context="/hello">
+   <resource methods="GET">
+      <inSequence>
+         <respond>
+            <property name="messageType" value="application/json"/>
+            <payloadFactory media-type="json">
+               <format>{"message":"Hello from WSO2!"}</format>
+            </payloadFactory>
+         </respond>
+      </inSequence>
+   </resource>
+</api>

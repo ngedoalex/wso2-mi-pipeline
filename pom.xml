@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.wso2</groupId>
+  <artifactId>wso2-mi-capp</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <repositories>
+  <repository>
+      <id>wso2-maven2-repository</id>
+      <name>WSO2 Maven2 Repository</name>
+      <url>https://maven.wso2.org/nexus/content/repositories/releases/</url>
+    </repository>
+  </repositories>
+
+  <modules>
+    <module>HelloWorldESB</module>
+  </modules>
+</project>
